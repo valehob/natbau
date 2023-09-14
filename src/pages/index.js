@@ -1,5 +1,6 @@
 import * as React from "react"
 import Review from '../components/review'
+import { StaticImage } from "gatsby-plugin-image"
 
 const pageStyles = {
   color: "#232129",
@@ -81,14 +82,20 @@ const badgeStyle = {
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <h1 style={headingStyles}>
-        Natbau Gmbh
+      <h1 className="text-3xl font-bold mb-8">
+        Was unsere Kunden sagen
       </h1>
-      <p style={paragraphStyles}>
-      </p>
-    
-    <Review  name="cool bau" content="super service, voll gut" rating={4}></Review>
-    <Review  name="krass build gmbh" content="ich bau hier immer" rating={5}></Review>
+    <div className="reviews flex justify-between items-start">
+      <Review name="cool bau" rating={4} positives={["Schnell", "Zuverlässig"]}
+        image={<StaticImage src={"../images/logo1.jpeg"} alt="logo1" className="object-cover"/>}
+        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." ></Review>
+      <Review name="krass build gmbh" rating={5} positives={["Zuverlässig"]}
+        image={<StaticImage src={"../images/logo2.jpeg"} alt="logo2" className="object-cover"/>}
+        content="Viverra justo nec ultrices dui sapien eget."></Review>
+      <Review name="berlin bau" rating={4} positives={["Ordentlich", "Sauber"]}
+        image={<StaticImage src={"../images/logo4.jpeg"} alt="logo3" className="object-cover"/>}
+        content="Habitasse platea dictumst quisque sagittis purus. Tincidunt ornare massa eget egestas purus viverra accumsan."></Review>
+    </div>
     </main>
   )
 }

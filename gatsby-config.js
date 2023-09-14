@@ -25,5 +25,6 @@ module.exports = {
         component: require.resolve(`./src/components/layout`),
       },
     },
+    "gatsby-plugin-fontawesome-css"
   ]
 };
