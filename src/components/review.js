@@ -17,8 +17,8 @@ const Review = (props) => {
         <Rating className="py-2" rating={props.rating}></Rating>
         <div className="flex space-x-2">
           {props.positives?.map((positive) => 
-              <div className="px-3 py-1 w-fit text-sm rounded-full border-2 text-green-500 border-green-500 bg-green-100">
-                <FontAwesomeIcon icon={faCirclePlus} inverse className="bg-green-500 rounded-full mr-1"/>
+              <div className="px-3 py-1 w-fit text-sm rounded-full border-2 text-green-400 border-green-400 bg-green-50">
+                <FontAwesomeIcon icon={faCirclePlus} inverse size="xl" className="bg-green-400 rounded-full mr-1"/>
                 {positive}
               </div>
             )}

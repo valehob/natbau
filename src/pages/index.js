@@ -81,7 +81,7 @@ const badgeStyle = {
 
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <main style={pageStyles} className="bg-slate-100">
       <h1 className="text-3xl font-bold mb-8">
         Was unsere Kunden sagen
       </h1>
