@@ -7,9 +7,13 @@ const IndexPage = () => {
   return (
     <main className="px-56 pt-16 bg-slate-100 space-y-20">
       <div>
+        <div className="header">
+           <StaticImage src={"../images/header.png"} alt="logo2" style={{maxWidth:"100%", maxHeight: "100%", display: "block"}}/>
         <h1 className="text-5xl font-bold">NatBau GmbH
         <span className="text-2xl ml-2 text-gray-700">ihr Bauunternehmen in Erlangen</span>
         </h1>
+        </div>
+       
         <p className="px-12 pt-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
