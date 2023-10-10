@@ -20,9 +20,9 @@ const Quality = (props) => {
   )
 }
 
-const Qualities = () => {
+const Qualities = (props) => {
   return (
-   <div className="flex justify-between">
+   <div className={props.className + " flex justify-between"}>
       <Quality tag="Qualität" icon={<FontAwesomeIcon icon={faCrosshairs} className="text-sky-800" size="2xl"/>}
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam sollicitudin tempor id eu. "/>
       <Quality tag="Pünktlichkeit" icon={<FontAwesomeIcon icon={faBusinessTime} className="text-sky-800" size="2xl"/>}
