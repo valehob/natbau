@@ -24,11 +24,11 @@ const Qualities = (props) => {
   return (
    <div className={props.className + " flex justify-between"}>
       <Quality tag="Qualität" icon={<FontAwesomeIcon icon={faCrosshairs} className="text-sky-800" size="2xl"/>}
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam sollicitudin tempor id eu. "/>
-      <Quality tag="Pünktlichkeit" icon={<FontAwesomeIcon icon={faBusinessTime} className="text-sky-800" size="2xl"/>}
-        content="Sit amet nisl purus in. Gravida cum sociis natoque penatibus et magnis dis parturient. Odio pellentesque diam volutpat commodo sed egestas. "/>
-      <Quality tag="Erfahrung" icon={<FontAwesomeIcon icon={faWrench} className="text-sky-800" size="2xl"/>}
-        content="Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Egestas integer eget aliquet nibh praesent tristique magna. Ullamcorper morbi tincidunt ornare massa."/>
+        content="Wir halten die höchsten Qualitätsstandards in jedem Projekt ein, um die dauerhafte Haltbarkeit und Funktionalität unserer Konstruktionen sicherzustellen."/>
+      <Quality tag="Integrität" icon={<FontAwesomeIcon icon={faBusinessTime} className="text-sky-800" size="2xl"/>}
+        content="Ehrlichkeit, Transparenz und ethische Praktiken sind das Herzstück unseres Geschäfts. Wir glauben daran, Vertrauen durch unsere Handlungen aufzubauen."/>
+      <Quality tag="Sicherheit" icon={<FontAwesomeIcon icon={faWrench} className="text-sky-800" size="2xl"/>}
+        content="Die Sicherheit unserer Mitarbeiter, Partner und der Gemeinden, in denen wir arbeiten, hat für uns oberste Priorität. Wir halten uns an Sicherheitsprotokolle, um unfallfreie Baustellen zu gewährleisten."/>
    </div>
   )
 }

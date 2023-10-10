@@ -16,10 +16,22 @@ const IndexPage = () => {
         </h1>
         </div>
        
-        <p className="px-12 pt-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p className="px-12 pt-12">
+        Willkommen bei NATBAU - Ihr vertrauenswürdiger Baupartner in Nürnberg
+Bei NatBau sind wir stolz darauf, ein führendes Bauunternehmen in Nürnberg zu sein, das sich der Exzellenz in jeder Hinsicht unserer Arbeit verschrieben hat. 
+Mit einer reichen Geschichte erfolgreicher Bauvorhaben haben wir das Vertrauen und den Respekt von Kunden in der gesamten Region gewonnen.
+
+Unsere Vision und Werte
+
+Unsere Vision ist einfach, aber kraftvoll: Ihr Wunsch durch nachhaltige und innovative Baulösungen zu gestalten. Wir werden von einer Reihe von Kernwerten geleitet, die jede unserer Bemühungen lenken:
+        </p>
       </div>
       <Qualities className="mt-20"/>
+      <p className="px-12 pt-12">
+      Warum NatBau wählen
+Die Wahl von NatBau bedeutet die Wahl eines Partners, der sich darauf konzentriert, Versprechen pünktlich und im Budgetrahmen zu erfüllen. Wir bringen einen kundenorientierten Ansatz in jedes Projekt ein und passen Lösungen an Ihre speziellen Bedürfnisse an. Unser Team aus Fachleuten, von Architekten bis zu Handwerkern, arbeitet zusammen, um Ihre Vision zum Leben zu erwecken.
+Begleiten Sie uns auf einer Reise zur Neudefinition des Bauens. Kontaktieren Sie NatBau, um Ihr nächstes Projekt zu besprechen, und erleben Sie den Unterschied, mit einem Bauunternehmen zusammenzuarbeiten, das Qualität, Integrität, Innovation und Sicherheit über alles andere stellt.
+      </p>
       <div className="mt-20">
         <h1 className="text-3xl font-bold mb-8">Was unsere Kunden sagen</h1>
         <div className="reviews flex justify-between items-start">
