@@ -3,7 +3,7 @@ import * as React from "react"
 const Navbar = (props) => {
   return(
     <nav className="bg-white border-gray-200 z-10">
-      <div className="w-screen flex flex-wrap items-center justify-between mx-auto px-4 absolute top-0 left-0 bg-slate-50">
+      <div className="w-screen flex flex-wrap items-center justify-between mx-auto px-4 absolute top-0 left-0 bg-white">
         <a href="/#" className="flex items-center">
         {props.logo}
           <span className="self-center text-2xl font-semibold whitespace-nowrap">Natbau</span>

@@ -7,12 +7,12 @@ import Navbar from "../components/navbar"
 const IndexPage = () => {
   return (
     <main className="px-56 bg-slate-100">
-      <Navbar logo={<StaticImage src={"../images/logo1.jpeg"} alt="logo1" className="h-8 w-16 mr-3"/>}/>
+      <Navbar logo={<StaticImage src={"../images/logo.jpeg"} alt="logo1" style={{height: "100%"}} className="w-16 mr-3 object-contain"/>}/>
       <div className="pt-20">
         <div className="header">
            <StaticImage src={"../images/head.png"} alt="logo2" style={{height: "450px", display: "block", zIndex: "1", marginLeft: "-224px", width:"100vw"}}/>
         <h1 className="text-5xl font-bold">NatBau GmbH
-        <span className="text-2xl ml-2 text-gray-700">ihr Bauunternehmen in Erlangen</span>
+        <span className="text-2xl ml-2 text-gray-700">ihr Bauunternehmen in Nürnberg</span>
         </h1>
         </div>
        
