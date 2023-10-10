@@ -10,7 +10,7 @@ const IndexPage = () => {
       <Navbar logo={<StaticImage src={"../images/logo1.jpeg"} alt="logo1" className="h-8 w-16 mr-3"/>}/>
       <div className="pt-20">
         <div className="header">
-           <StaticImage src={"../images/header.png"} alt="logo2" style={{maxWidth:"100%", maxHeight: "100%", display: "block", zIndex: "1"}}/>
+           <StaticImage src={"../images/head.png"} alt="logo2" style={{height: "450px", display: "block", zIndex: "1", marginLeft: "-224px", width:"100vw"}}/>
         <h1 className="text-5xl font-bold">NatBau GmbH
         <span className="text-2xl ml-2 text-gray-700">ihr Bauunternehmen in Erlangen</span>
         </h1>
