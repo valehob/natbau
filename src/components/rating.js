@@ -8,7 +8,7 @@ const Rating = (props) => {
         let content = [];
         for (let i = 0; i < count; i++) {
             content.push(
-                <FontAwesomeIcon icon={faStar} className="mr-1 text-amber-400"/>
+                <FontAwesomeIcon icon={faStar} className="mr-1 text-amber-400" key={i}/>
             );
         }
         return content;
@@ -18,7 +18,7 @@ const Rating = (props) => {
         let content = [];
         for (let i = 0; i < 5-count; i++) {
             content.push(
-                <FontAwesomeIcon icon={faStar} className="mr-1"/>
+                <FontAwesomeIcon icon={faStar} className="mr-1" key={i}/>
             );
         }
         return content;
@@ -28,7 +28,7 @@ const Rating = (props) => {
         <div className={`flex items-center ${props.className}`}>
             {yellowStars(props.rating)}
             {greyStars(props.rating)}
-            <p class="ml-2 text-sm font-medium text-gray-500 dark:text-gray-400">{props.rating}</p>
+            <p className="ml-2 text-sm font-medium text-gray-500 dark:text-gray-400">{props.rating}</p>
         </div>
     )
 }
