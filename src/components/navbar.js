@@ -1,4 +1,5 @@
 import * as React from "react" 
+import { Link } from "gatsby"
 
 const Navbar = (props) => {
   return(
@@ -11,19 +12,34 @@ const Navbar = (props) => {
         <div className="w-auto block" id="navbar-default">
           <ul className="font-medium flex p-4 rounded-lg">
             <li>
-              <a href="/#" className="block py-2 pl-3 pr-4 text-black border-b-2" aria-current="page">Home</a>
+              <Link to="/" activeClassName="text-black border-b-2"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100">
+                Home
+              </Link>
             </li>
             <li>
-              <a href="/#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100">Über uns</a>
+            <Link to="/about-us" activeClassName="text-black border-b-2"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100">
+                Über uns
+              </Link>
             </li>
             <li>
-              <a href="/#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100">Leistungen</a>
+            <Link to="/leistungen" activeClassName="text-black border-b-2"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100">
+                Leistungen
+              </Link>
             </li>
             <li>
-              <a href="/#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100">Projekte</a>
+            <Link to="/projekte" activeClassName="text-black border-b-2"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100">
+                Projekte
+              </Link>
             </li>
             <li>
-              <a href="/#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100">Kontakt</a>
+            <Link to="/kontakt" activeClassName="text-black border-b-2"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100">
+                Kontakt
+              </Link>
             </li>
           </ul>
         </div>

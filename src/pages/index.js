@@ -2,13 +2,11 @@ import * as React from "react"
 import Review from '../components/review'
 import { StaticImage } from "gatsby-plugin-image"
 import Qualities from "../components/qualities"
-import Navbar from "../components/navbar"
+import Layout from "../components/layout"
 
 const IndexPage = () => {
   return (
-    <main className="px-56 bg-slate-100">
-      <Navbar logo={<StaticImage src={"../images/logo.jpeg"} alt="logo1" style={{height: "100%"}} className="w-16 mr-3 object-contain"/>}/>
-      <div className="pt-20">
+    <Layout>
         <div className="header">
            <StaticImage src={"../images/head.png"} alt="logo2" style={{height: "450px", display: "block", zIndex: "1", marginLeft: "-224px", width:"100vw"}}/>
         <h1 className="text-5xl font-bold">NatBau GmbH
@@ -25,7 +23,6 @@ Unsere Vision und Werte
 
 Unsere Vision ist einfach, aber kraftvoll: Ihr Wunsch durch nachhaltige und innovative Baulösungen zu gestalten. Wir werden von einer Reihe von Kernwerten geleitet, die jede unserer Bemühungen lenken:
         </p>
-      </div>
       <Qualities className="mt-20"/>
       <p className="px-12 pt-12">
       Warum NatBau wählen
@@ -47,7 +44,7 @@ Begleiten Sie uns auf einer Reise zur Neudefinition des Bauens. Kontaktieren Sie
         </div>
       </div>
       
-    </main>
+    </Layout>
   )
 }
 
